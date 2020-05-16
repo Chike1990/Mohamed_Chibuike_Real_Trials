@@ -1,11 +1,16 @@
+body{
+  background-color:#5dbcd2
+}
+
 #header-img{
   width:300px;
   height: 200px;
+  align-items: center;
 
 }
 
 header{
-  
+
   width: 500px;
   display: flex;
   align-items: center;
@@ -18,8 +23,12 @@ ul{
 
 }
 
+h1{
+text-align:center;
+ }
+
 nav{
-  width: 500%;
+  width: 100%;
 }
 
 #DS_section{
@@ -28,6 +37,8 @@ nav{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  display: flex;
+  justify-content: center;
 
 
 }
@@ -37,10 +48,20 @@ nav{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  display: flex;
+  justify-content: center;
+
 }
 #Contact_section{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.videoLP{
+  display: flex;
+  justify-content: center;
 }
