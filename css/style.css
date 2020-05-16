@@ -5,18 +5,42 @@
 }
 
 header{
-  width: 150px;
+  
+  width: 500px;
   display: flex;
   align-items: center;
 }
 
 ul{
+  list-style: none;
   justify-content: space-around;
   display: flex;
 
 }
 
+nav{
+  width: 500%;
+}
+
 #DS_section{
 
-  background-image: url("https://4.bp.blogspot.com/-damBI8mnXBc/W_oU9ldorXI/AAAAAAAACO4/NPUVr1JWQlUNr5Jyj8Gh2OJWDZr60gnpwCLcBGAs/s1600/data-structure.jpg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+
+}
+
+#Algo_section{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#Contact_section{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
