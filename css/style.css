@@ -11,7 +11,7 @@ body{
 }
 
 header{
-
+  position: fixed;
   width: auto;
   display: flex;
   align-items: center;
@@ -19,7 +19,7 @@ header{
   justify-content: center;
 }
 
-ul{
+ol{
   list-style: none;
   justify-content: space-around;
   display: flex;
@@ -33,9 +33,7 @@ text-align:center;
 color: #e07b39
  }
 
-nav{
-  width: 100%;
-}
+
 
 .nav-link{
   color: #e07b39
@@ -48,7 +46,7 @@ nav{
   width: 50%;
   display: flex;
   justify-content: center;
-  c
+  margin-bottom: 8px;
 
 
 }
@@ -60,6 +58,7 @@ nav{
   width: 50%;
   display: flex;
   justify-content: center;
+  margin-bottom: 8px;
 
 }
 #Contact_section{
@@ -69,6 +68,7 @@ nav{
   width: 50%;
   display: flex;
   justify-content: center;
+  margin-bottom: 8px;
 }
 
 .videoLP{
